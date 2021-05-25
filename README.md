@@ -16,7 +16,7 @@ Run the following commands to clone and run the repository.
 
 ## Task 1
 
-Create a User Model.
+Create a User Model in React.
 
 ## Task 1 Details
 
@@ -50,7 +50,7 @@ Component should display the user's username.
 
 ## Task 1
 
-Write a simple Mongoose schema for a user model.
+Write a simple Mongoose user schema.
 
 ## Task 1 Details
 
@@ -65,13 +65,23 @@ Write a simple Mongoose schema for a user model.
 
 ### Task 2 Details
 
-- A starter function is in the `~/updateUserSettings.js file`. Fix and finish the code.
+- A starter function is in the `~/updateCurrentUser.js file`. Fix and finish the code.
+- This code should utilize the user schema you wrote in Task 1.
 - Assume the user ID is given to you.
 - If no DB document is found, create a new one.
 - Return the new document after update.
 - This code will not be executed, but should be valid.
 
 # Notes
+
+Your work will be judged based on these factors:
+
+1. Does it run without errors?
+2. Is the code clean and easy to understand?
+3. Is the code easy to extend?
+4. Does the code follow best practices?
+
+If you have extra time and energy, feel free to add a feature of your own design. It will be taken into strong consideration.
 
 Please provide feedback if any errors or bugs are encountered in this repo. We want to make your coding challenge as painless as possible.
 

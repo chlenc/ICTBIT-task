@@ -1,4 +1,4 @@
-// updateUserSettings = (currentUserID) => {
+// updateCurrentUser = (currentUserID) => {
 //     try {
 //       const userSettings = await UserSchema.findOneAndUpdate(
 //         // Fill in options here
