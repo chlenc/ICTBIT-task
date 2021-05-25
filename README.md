@@ -36,11 +36,13 @@ Create a `CurrentUserStore` that uses the `UserModel` type.
 - Create two React components: `EditUser` and `DisplayUsername`.
 - The components should be displayed, side by side, in the `App.tsx` component.
 
-## Task 3 - `EditUser`
+## Task 3 Details
+
+## `EditUser`
 
 - Component should allow editing of user's name and age.
 
-## Task 3 - `DisplayUsername`
+## `DisplayUsername`
 
 Component should display the user's username.
 
