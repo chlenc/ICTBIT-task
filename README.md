@@ -11,6 +11,7 @@ Run the following commands to clone and run the repository.
 - Push this cloned repo to your Github/Gitlab account.
 - Submit the repo URL when finished your assignment.
 - Make at least one commit, demonstrating how to write a good commit message.
+- This coding challenge should not take more than 1-3 hours.
 
 # React/Mobx
 
