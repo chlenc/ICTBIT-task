@@ -12,8 +12,8 @@ Run the following commands to clone and run the repository.
 
 ## Coding Challenge Requirements
 
-- Push this cloned repo to your own, *personal* Github/Gitlab account.
-- Submit your *personal* repo URL when finished your assignment.
+- Push this cloned repo to your own, _personal_, Github/Gitlab account.
+- Submit your _personal_ repo URL when finished your assignment.
 - Make at least one commit, demonstrating how to write a good commit message.
 - This coding challenge should not take more than 1-3 hours.
 
@@ -31,7 +31,7 @@ Create a User Model in React.
 
 ## Task 2
 
-Create a `CurrentUserStore` that uses the `UserModel` type.
+Create a `CurrentUserStore` that uses the `UserModel` type you just wrote in Task 1.
 
 - A starter file is located at `~/src/stores/CurrentUser.store.ts`.
 
@@ -61,7 +61,7 @@ Write a simple Mongoose user schema.
 
 ## Task 1 Details
 
-- Add relevant properties and types as you see fit.
+- Schema properties should match the `UserModel` from above.
 - Ensure that timestamps will be recorded.
 - This code will not be executed, but should be valid.
 - A starter file is located at `~/userModel.js`. Fix and finish the code.
