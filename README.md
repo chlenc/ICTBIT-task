@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+## Installation and Running
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Run the following commands to clone and run the repository.
+`git clone <git repo URL>`
+`cd <repo name>`
+`npm install`
+`npm start`
 
-## Available Scripts
+## Coding Challenge Requirements
 
-In the project directory, you can run:
+- Push this cloned repo to your Github/Gitlab account.
+- Submit the repo URL when finished your assignment.
+- Make at least one commit, demonstrating how to write a good commit message.
 
-### `yarn start`
+# React/Mobx
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Task 1
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Create a User Model.
 
-### `yarn test`
+## Task 1 Details
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User Model should contain at least `Age` and `Name` properties.
+- Ensure you have utilizing MobX reactivity decorators.
+- A starter file is located at `~/src/models.User.model.ts`.
 
-### `yarn build`
+## Task 2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a `CurrentUserStore` that uses the `UserModel` type.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A starter file is located at `~/src/stores/CurrentUser.store.ts`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Task 3
 
-### `yarn eject`
+- Create two React components: `EditUser` and `DisplayUsername`.
+- The components should be displayed, side by side, in the `App.tsx` component.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Task 3 - `EditUser`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Component should allow editing of user's name and age.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Task 3 - `DisplayUsername`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Component should display the user's username.
 
-## Learn More
+- Username = user.name + user.age (Example: Eric30, Moshe25, Chaim42)
+- Changes in the user's name and age should be automatically reflected in this component utilziing MobX reactivity.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# MongoDB/Mongoose
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Task 1
+
+Write a simple Mongoose schema for a user model.
+
+## Task 1 Details
+
+- Add relevant properties and types as you see fit.
+- Ensure that timestamps will be recorded.
+- This code will not be executed, but should be valid.
+- A starter file is located at `~/userModel.js`. Fix and finish the code.
+
+## Task 2
+
+- Write a simple function that demonstrates how to find and update a user model.
+
+### Task 2 Details
+
+- A starter function is in the `~/updateUserSettings.js file`. Fix and finish the code.
+- Assume the user ID is given to you.
+- If no DB document is found, create a new one.
+- Return the new document after update.
+- This code will not be executed, but should be valid.
+
+# Notes
+
+Please provide feedback if any errors or bugs are encountered in this repo. We want to make your coding challenge as painless as possible.
+
+- ICTBIT Dev Team
