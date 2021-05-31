@@ -44,14 +44,20 @@ Create a `CurrentUserStore` that uses the `UserModel` type you just wrote in Tas
 
 ## `EditUser`
 
+- On component load, if no user information alrady exists, query this API `https://randomuser.me/api` and display some of the user's information.
+- Create button that calls the API without refreshing the page.
 - Component should allow editing of user's name and age.
+- Store current user information in browser local storage. Load information on page load, if exists.
+- Create button to clear all user information.
 
 ## `DisplayUsername`
 
 Component should display the user's username.
 
 - Username = user.name + user.age (Example: Eric30, Moshe25, Chaim42)
-- Changes in the user's name and age should be automatically reflected in this component utilziing MobX reactivity.
+- Only the first 10 chars of a name should be used in the username.
+- Ensure that the first letter of the username is capital, and that rest of the letter are lowercase.
+- Changes in the user's name and age should be automatically reflected in this component utilizing MobX reactivity.
 
 # MongoDB/Mongoose
 
@@ -89,6 +95,7 @@ Your work will be judged based on these factors:
 4. Does the code follow best practices?
 
 If you have extra time and energy, feel free to add a feature of your own design. It will be taken into strong consideration.
+
 
 Please provide feedback if any errors or bugs are encountered in this repo. We want to make your coding challenge as painless as possible.
 
