@@ -55,7 +55,7 @@ Create a `CurrentUserStore` that uses the `UserModel` type you just wrote in Tas
 Component should display the user's username.
 
 - Username = user.name + user.age (Example: Eric30, Moshe25, Chaim42)
-- Only the first 10 chars of a name should be used in the username.
+- Only the first 10 chars of a name should be displayed in the username, but the full name should be saved (even longer than 10 chars).
 - Ensure that the first letter of the username is capital, and that rest of the letter are lowercase.
 - Changes in the user's name and age should be automatically reflected in this component utilizing MobX reactivity.
 
