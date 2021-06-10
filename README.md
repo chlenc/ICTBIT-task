@@ -70,7 +70,7 @@ Write a simple Mongoose user schema.
 - Schema properties should match the `UserModel` from above.
 - Ensure that timestamps will be recorded.
 - This code will not be executed, but should be valid.
-- A starter file is located at `~/userModel.js`. Fix and finish the code.
+- A starter file is located at `~/userModel.ts`. Fix and finish the code.
 
 ## Task 2
 
@@ -78,7 +78,7 @@ Write a simple Mongoose user schema.
 
 ### Task 2 Details
 
-- A starter function is in the `~/updateCurrentUser.js file`. Fix and finish the code.
+- A starter function is in the `~/updateCurrentUser.ts file`. Fix and finish the code.
 - This code should utilize the user schema you wrote in Task 1.
 - Assume the user ID is given to you.
 - If no DB document is found, create a new one.
