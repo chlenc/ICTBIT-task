@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ICTBIT-task/static/css/main.b45add95.chunk.css",
+    "main.js": "/ICTBIT-task/static/js/main.64358db4.chunk.js",
+    "main.js.map": "/ICTBIT-task/static/js/main.64358db4.chunk.js.map",
+    "runtime-main.js": "/ICTBIT-task/static/js/runtime-main.e8e6d2f0.js",
+    "runtime-main.js.map": "/ICTBIT-task/static/js/runtime-main.e8e6d2f0.js.map",
+    "static/js/2.40bad1d2.chunk.js": "/ICTBIT-task/static/js/2.40bad1d2.chunk.js",
+    "static/js/2.40bad1d2.chunk.js.map": "/ICTBIT-task/static/js/2.40bad1d2.chunk.js.map",
+    "index.html": "/ICTBIT-task/index.html",
+    "static/css/main.b45add95.chunk.css.map": "/ICTBIT-task/static/css/main.b45add95.chunk.css.map",
+    "static/js/2.40bad1d2.chunk.js.LICENSE.txt": "/ICTBIT-task/static/js/2.40bad1d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8e6d2f0.js",
+    "static/js/2.40bad1d2.chunk.js",
+    "static/css/main.b45add95.chunk.css",
+    "static/js/main.64358db4.chunk.js"
+  ]
+}
